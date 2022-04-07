@@ -140,3 +140,52 @@ NOTE:
 1. Functions are Objects.
 2. Similar to Objects, Functions also have properties and methods.
 */
+
+/*
+Default Function Properties and Methods
+
+Defult Properties of Function
+    1. name
+    2. length
+    3. constructor
+    4. prototype
+    ................many more.
+
+Defult Methods of Function
+    1. apply()
+    2. blind()
+    3. call()
+    4. toString()
+    ................many more.
+*/
+
+console.log(Car.name);
+// it returns name of function
+
+console.log(Car.length);
+// it returns no of params we may pass to Function
+
+console.log(typeof(Car));
+// return type
+
+// Constructor property
+// tells us which method is used to create the object
+console.log(car8.constructor);
+console.log(car1.constructor);
+console.log(car7.constructor);
+
+
+// Built in constructor Functions
+// eg:
+/*
+    1. function Date()
+    2. function Error()
+    3. function Promise()
+    4. function Object()
+    5. function String()
+    6. function Number() 
+    ......................many more.   
+*/
+
+// Built in Date constructor function
+
