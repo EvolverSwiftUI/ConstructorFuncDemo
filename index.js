@@ -189,3 +189,24 @@ console.log(car7.constructor);
 
 // Built in Date constructor function
 
+let now = new Date()
+console.log(now);
+console.log(typeof(now));
+
+let date = new Date("2022-04-07");
+console.log(date);
+
+let date2 = new Date(1947,07,15,1,03,15,0);
+console.log(date2);
+
+let date3 = new Date(1947,07,15);
+console.log(date3);
+
+let date4 = new Date(1947,07,15,1,03,15,0);
+console.log(date4.getFullYear());
+console.log(date4.getMonth());
+
+date4.setMonth(1);
+date4.setDate(26);
+console.log(date4);
+
