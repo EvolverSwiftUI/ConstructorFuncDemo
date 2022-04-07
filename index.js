@@ -138,5 +138,5 @@ Factory functions vs Constructor functions
 /*
 NOTE:
 1. Functions are Objects.
-2. Similar Objects functions also have properties and methods.
+2. Similar to Objects, Functions also have properties and methods.
 */
